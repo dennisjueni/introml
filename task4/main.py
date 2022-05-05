@@ -22,7 +22,7 @@ def get_vector(image_path, model):
 
 
 
-sorted_img = sorted(glob.glob('food' + '/*.jpg'))
+sorted_img = sorted(glob.glob('data' + '/*.jpg'))
 
 
 e1_model = EfficientNetB1(weights='imagenet', include_top=False, pooling='avg')
